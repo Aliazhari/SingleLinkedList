@@ -1,5 +1,10 @@
 package singlelinkedlist;
 
+/**
+ * @author Ali Azhari
+ * @File Student.java
+ *
+ */
 public class Student implements Comparable<Student>{
 	
 	private String id;
