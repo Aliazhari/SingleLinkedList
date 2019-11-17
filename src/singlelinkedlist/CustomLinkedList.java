@@ -239,8 +239,6 @@ public class CustomLinkedList<E> implements Iterable<E> {
 	
 			
 			this.current = current;
-			System.out.println(current.getElement() + " is iterator is initialized");
-			
 		}
 
 		@Override
@@ -266,8 +264,7 @@ public class CustomLinkedList<E> implements Iterable<E> {
 
 	@Override
 	public  Iterator<E> iterator() {
-		// TODO Auto-generated method stub
-		System.out.println(head.getElement() + " is iterator is defined");
+		
 		return  (Iterator<E>) new ListIterator<E>(head);
 	}
 
